@@ -13,7 +13,7 @@ html {
     margin-bottom: 2%;
 }
 
-#button-box {    
+#button-box {
     text-align: center;
     margin-bottom: 4%;
 }
@@ -93,7 +93,6 @@ a:hover {
     right: 0;
     padding-bottom: 4px;
     padding-right: 4px;
-    
 }
 
 .bottom-right:hover {
@@ -154,6 +153,34 @@ a:hover {
 }
 
 
+/* Phones Landscape - Make more vertical space */
+
+@media screen and (max-height:360px) {
+    .main-quote-button {
+        display: none;
+    }
+    #quote-box {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #heading {
+        margin-bottom: 0;
+    }
+    #quote-box {
+        padding-top: 0;
+    }
+    #quote-text {
+        font-size: 10px;
+    }
+    #quote-author {
+        font-size: 8px
+    }
+    .tweet-link {
+        font-size: 10px;
+    }
+}
+
+
 /* Phones 240 x 320 - Nokia 230, Nokia 215, Samsung Xcover 550, LG G350  */
 
 @media screen and (max-width: 240px) and (max-height:320px) {
@@ -165,15 +192,15 @@ a:hover {
         display: none;
     }
     #quote-text {
-        font-size: 10px;
+        font-size: 14px;
     }
     #quote-author {
-        font-size: 8px
+        font-size: 12px
     }
     .quote-button {
-        font-size: 10px;
+        font-size: 14px;
     }
     .tweet-link {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
