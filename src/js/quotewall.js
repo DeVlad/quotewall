@@ -16,7 +16,7 @@ function parseQuote(response) {
 
 function prepareTweet(quote, author) {
     var path = window.location + '&text=' + '"' + quote + '" - ' + author;
-    var tweeturl = 'http://twitter.com/share?url=' + encodeURI(path);
-    $('#quote-tweet').html('<a id="tweet-url" href=" ' + tweeturl + ' ">Tweet Quote</a>');
+    var tweeturl = "http://twitter.com/share?url=" + encodeURI(path);
+    $("#quote-tweet").html('<a id="tweet-url" href=" ' + tweeturl + ' ">Tweet Quote</a>');
     $("#tweet-url").addClass("tweet-link");
 }

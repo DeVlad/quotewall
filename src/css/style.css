@@ -13,7 +13,7 @@ html {
     margin-bottom: 2%;
 }
 
-#button-box {    
+#button-box {
     text-align: center;
     margin-bottom: 4%;
 }
@@ -93,7 +93,6 @@ a:hover {
     right: 0;
     padding-bottom: 4px;
     padding-right: 4px;
-    
 }
 
 .bottom-right:hover {
@@ -149,7 +148,7 @@ a:hover {
     }
     /* scale down gq button */
     .bottom-right {
-        width: 7%;
+        width: 24px;
     }
 }
 
